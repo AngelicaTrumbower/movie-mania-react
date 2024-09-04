@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="1024" viewBox="0 0 1280 1024" xml:space="preserve">
+<desc>Created with Fabric.js 5.3.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 640 512)" id="background-logo"  >
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="1280" height="1024" />
+</g>
+<g transform="matrix(4.033692846349446 0 0 4.033692846349446 640.6837837402564 512.0643561167301)" id="logo-logo"  >
+<g style=""  paint-order="stroke"   >
+		<g transform="matrix(0.15179530514925818 0 0 -0.15179530514925818 49.14517209747123 28.999582276934888)"  >
+<linearGradient id="SVGID_80_2179700" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 697.605 341.8829999999999)"  x1="0" y1="0" x2="0" y2="239">
+<stop offset="0%" style="stop-color:rgb(180,236,81);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(66,147,33);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_80_2179700); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-838.7945, -461.16599999999994)" d="M 831.766 580.449 L 697.605 580.449 L 770.301 399.7339999999999 L 770.2420000000001 399.66799999999995 L 770.2420000000001 341.8829999999999 L 979.984 341.8829999999999 L 979.984 424.86299999999994 L 881.273 457.37899999999996 L 831.7660000000001 580.449" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.15179530514925818 0 0 -0.15179530514925818 0.00004553859162115259 -57.34394011919301)"  >
+<linearGradient id="SVGID_80_2179701" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 60.47659999999996 755.5430000000001)"  x1="0" y1="0" x2="0" y2="549">
+<stop offset="0%" style="stop-color:rgb(180,236,81);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(66,147,33);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_80_2179701); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-515.0353, -1029.9815)" d="M 940.922 807.156 L 756.664 807.156 L 595.523 1207.75 L 618.3670000000001 1207.75 L 671.7030000000001 1304.42 L 358.367 1304.42 L 411.70300000000003 1207.75 L 434.547 1207.75 L 298.441 869.395 L 432.60499999999996 869.395 L 515.035 1074.31 L 622.5039999999999 807.156 L 89.1523 807.156 L 60.4766 755.543 L 969.594 755.543 L 940.922 807.156" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.15179530514925818 0 0 -0.15179530514925818 0 45.832846743809256)"  >
+<linearGradient id="SVGID_80_2179702" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="0" y1="0" x2="0" y2="701">
+<stop offset="0%" style="stop-color:rgb(180,236,81);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(66,147,33);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_80_2179702); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-515.0350000000001, -350.2715)" d="M 0 642.688 L 223.336 642.688 L 148.809 457.41 L 50 424.863 L 50 341.883 L 259.74199999999996 341.883 L 259.74199999999996 399.668 L 357.49999999999994 642.688 L 453.53899999999993 642.688 L 453.53899999999993 128.852 L 314.074 82.9805 L 314.074 0 L 718.023 0 L 718.023 82.9805 L 578.008 129.09 L 578.008 642.688 L 1030.0700000000002 642.688 L 997.9300000000002 700.543 L 32.1445 700.543 L 0 642.688" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
