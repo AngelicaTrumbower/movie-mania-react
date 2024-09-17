@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
+import { Link } from "react-router-dom";
 
 
 const Movie = ({ movie }) => {
@@ -14,7 +15,7 @@ const Movie = ({ movie }) => {
         if (mountedRef.current) {
           setImg(image);
         }
-      }, 30);
+      }, 2000);
     };
     return () => {
       mountedRef.current = false;
@@ -22,19 +23,19 @@ const Movie = ({ movie }) => {
   }, [movie.Poster]);
 
   return (
-    <div>
+    <div className="movie">
       {!img ? (
         <>
           <div className="img--skeleton"></div>
-          <div className="title--skeleton skeleton"></div>
-          <div className="year--skeleton skeleton"></div>
+          <div className="title--skeleton"></div>
+          <div className="year--skeleton"></div>
         </>
       ) : (
-        <div key={movie.imdbID} className="movie__listing">
+        <Link to={`/movies/${movie.imdbID}`} key={movie.imdbID} className="movie">
           <img src= {movie.Poster} />
-          <p>"{movie.Title}" </p>
-          <p>{movie.Year}</p>
-        </div>
+          <p className="movie__link">"{movie.Title}" </p>
+          <p className="movie__link">{movie.Year}</p>
+        </Link>
       )}
     </div>
   );

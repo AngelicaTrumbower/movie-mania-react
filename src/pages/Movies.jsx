@@ -7,6 +7,18 @@ const Movies = () => {
   const [inputValue, setInputValue] = useState('');
   const [moviesData, setMoviesData] = useState([]); 
 
+  function filterMovies(filter) {
+    if(filter === "Title:A-Z") {
+        setMoviesData(moviesData.slice().sort((a, b) => a.Title.localeCompare(b.Title)));
+    }
+    if (filter === "Year:New to Old") {
+        setMoviesData(moviesData.slice().sort((a, b) => b.Year - a.Year));
+    }
+    if (filter === "Year:Old to New") {
+        setMoviesData(moviesData.slice().sort((a, b) => a.Year - b.Year));
+    };
+    
+  };
 
   useEffect(() => {
     async function fetchMovies() {
@@ -22,9 +34,7 @@ const Movies = () => {
       console.log(movies);
     }
 
-
     fetchMovies(); 
-
   }, []);
 
   return (
@@ -32,7 +42,7 @@ const Movies = () => {
       <div className="row">
         <InputForm />
         <div className="filter">
-          <select id="filter">
+          <select id="filter" onChange={(event) => filterMovies(event.target.value)} >
             <option value="">Sort</option>
             <option value="Title:A-Z">Title:A-Z</option>
             <option value="Year:New to Old">Year:New to Old</option>
